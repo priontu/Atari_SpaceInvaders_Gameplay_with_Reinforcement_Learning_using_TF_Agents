@@ -30,7 +30,7 @@ Agent's Gameplay mid-training (near 1.5M iterations):
 
 ![space_invaders_2M_14_1st_win](https://user-images.githubusercontent.com/61733487/208233316-d3359c27-0673-4306-bcff-b57815d50d62.gif)
 
-The agent learned some new things -- now it knows it needs to shoot the enemy and kill them in order to gain points, but it hasn't yet learned how to stay alive by evading the enemy fire and kill all the enemies in a round.
+The agent learned some new things -- now it knows it needs to shoot the enemy and kill them in order to gain points. It was also able to win one round by killing all enemies.
 
 Agent's Gameplay after training (over 3M iterations):
 
@@ -38,7 +38,7 @@ Agent's Gameplay after training (over 3M iterations):
 
 At this point in the training, we have reached Human-Level Control in the Gameplay.
 
-We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire. The agent tends to adapt to this sometimes, which is promising. This allows the agent to win some rounds and jump to the next. However, it always fails in the second round.
+We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. This allowed it to win 2 separate rounds this time. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire. The agent tends to adapt to this sometimes, which is promising. This allows the agent to win some rounds and jump to the next. However, it always fails in the second round.
 
 These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
 
