@@ -24,21 +24,23 @@ Agent's Gameplay before training (around 1000 iterations):
 
 ![space_invaders_2M_9](https://user-images.githubusercontent.com/61733487/208233183-ed32b5c8-6ee9-41b3-a306-068cf013e11d.gif)
 
-At this point the agent doesn't know much. It's trying different things and learning what works, and which actions lets it earn some rewards.
+At this point the agent doesn't know much. It's trying different things and learning what works, and which actions let it earn some rewards.
 
 Agent's Gameplay mid-training (near 1.5M iterations):
 
-![space_invaders_1M (1)](https://user-images.githubusercontent.com/61733487/208232926-22aaa720-4e76-4429-a3a2-3f8527902707.gif)
+![space_invaders_2M_14_1st_win](https://user-images.githubusercontent.com/61733487/208233316-d3359c27-0673-4306-bcff-b57815d50d62.gif)
 
-The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay alive by evading the enemy fire.
+The agent learned some new things -- now it knows it needs to shoot the enemy and kill them in order to gain points, but it hasn't yet learned how to stay alive by evading the enemy fire and kill all the enemies in a round.
 
 Agent's Gameplay after training (over 3M iterations):
 
-![myAgentPlays_10](https://user-images.githubusercontent.com/61733487/208226094-776275b4-0219-4a16-9f8d-9a5e26614e9b.gif)
+![space_invaders_26_2_wins](https://user-images.githubusercontent.com/61733487/208233550-21ec99f4-b590-4b6a-ba60-aad93608bf64.gif)
 
 At this point in the training, we have reached Human-Level Control in the Gameplay.
 
-We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire, which the agent hasn't adapted to yet. These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
+We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire. The agent tends to adapt to this sometimes, which is promising. This allows the agent to win some rounds and jump to the next. However, it always fails in the second round.
+
+These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
 
 References:
 
