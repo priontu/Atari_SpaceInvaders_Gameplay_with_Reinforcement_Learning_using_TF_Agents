@@ -42,6 +42,11 @@ We can see that the Gameplay has improved. The agent has learned how to shoot an
 
 These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
 
+Google Cloud Machine Configuration:
+
+![image](https://user-images.githubusercontent.com/61733487/232131266-478a9d27-3cc7-42ae-89b6-6af709ccc261.png)
+
+
 References:
 
 [1] https://www.nature.com/articles/nature14236
